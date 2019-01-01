@@ -5,9 +5,11 @@
         <title>W3.CSS Template</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="google-signin-client_id" content="1007665281724-bh2add03cm5k6t68r9umqkd1d7q65ges.apps.googleusercontent.com">
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <link rel='stylesheet' href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
         <link rel="stylesheet" type="text/css" href="style.css" />
+        <script src="https://apis.google.com/js/platform.js" async defer></script>
         <script type="text/javascript" src="script.js"></script>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -52,6 +54,7 @@ body, html {
       <a href="#pricing" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> PRICING</a>
       <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
     </div>
+    <div class="g-signin2" data-onsuccess="onSignIn"></div>
     <!-- Hide right-floated links on small screens and replace them with a menu icon -->
 
     <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
