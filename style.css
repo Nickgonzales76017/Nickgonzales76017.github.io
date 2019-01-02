@@ -116,7 +116,7 @@
 .column {
   float: left;
   width: 33.33%;
-  padding: 50px;
+  padding: auto;
   text-align: center;
   font-size: 25px;
   cursor: pointer;
