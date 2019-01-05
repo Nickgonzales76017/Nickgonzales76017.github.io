@@ -24,13 +24,6 @@ window.onclick = function(event) {
   }
 }
 
-function onSignIn(googleUser) {
-  var profile = googleUser.getBasicProfile();
-  console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
-  console.log('Name: ' + profile.getName());
-  console.log('Image URL: ' + profile.getImageUrl());
-  console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
-}
 
 function myFunction() {
   // Get the snackbar DIV
@@ -40,7 +33,7 @@ function myFunction() {
   x.className = "show";
 
   // After 3 seconds, remove the show class from DIV
-  setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+  setTimeout(function(){ x.className = x.className.replace("show", ""); }, 5000);
 }
 
 // Hide all elements with class="containerTab", except for the one that matches the clickable grid column
