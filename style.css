@@ -88,7 +88,7 @@
 /* Style the form icons */
 .icon {
   padding: 10px;
-  background: dodgerblue;
+  background: #000000;
   color: white;
   min-width: 50px;
   text-align: center;
@@ -102,12 +102,12 @@
 }
 
 .input-field:focus {
-  border: 2px solid dodgerblue;
+  border: 2px solid #000000;
 }
 
 /* Set a style for the submit button */
 .btn {
-  background-color: dodgerblue;
+  background-color: #000000;
   color: white;
   padding: 15px 20px;
   border: none;
