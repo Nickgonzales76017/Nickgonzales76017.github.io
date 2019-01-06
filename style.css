@@ -106,7 +106,7 @@
 }
 
 /* Set a style for the submit button */
-.btn2 {
+.btn {
   background-color: dodgerblue;
   color: white;
   padding: 15px 20px;
@@ -116,7 +116,7 @@
   opacity: 0.9;
 }
 
-.btn2:hover {
+.btn:hover {
   opacity: 1;
 }
 
