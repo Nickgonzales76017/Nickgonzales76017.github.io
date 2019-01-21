@@ -292,6 +292,7 @@
 .column {
   float: left;
   width: 33.33%;
+  height: 5%
   padding: 50px;
   text-align: center;
   font-size: 25px;
