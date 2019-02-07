@@ -1,16 +1,12 @@
-.cont{
-  z-index: 1;
-  top: 80%;
-  left: 70%;
-  position: sticky;
-  position: -webkit-sticky; /* Safari */
-}
+
 .menu-button {
   -webkit-transition: 0.4s;
   -moz-transition: 0.4s;
   position: -webkit-sticky; /* Safari */
   transition: 0.4s;
   position: sticky;
+  top: 300px;
+  left: 200px;
   width: 60px;
   height: 60px;
   text-align: center;
