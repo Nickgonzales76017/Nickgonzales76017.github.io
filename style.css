@@ -5,8 +5,8 @@
   position: -webkit-sticky; /* Safari */
   transition: 0.4s;
   position: sticky;
-  top: 175px;
-  left: 500x;
+  top: 0;
+  left: 80%;
   width: 60px;
   height: 60px;
   text-align: center;
